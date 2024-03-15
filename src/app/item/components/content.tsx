@@ -1,10 +1,10 @@
 import { FC, useState } from 'react'
-import { Chair } from './Chair'
+import { Model } from './Untitled'
 
 const Content: FC = () => {
   const [hovered, setHover] = useState(false)
 
-  return <Chair />
+  return <Model />
 }
 
 export default Content

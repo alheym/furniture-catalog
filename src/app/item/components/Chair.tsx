@@ -10,7 +10,7 @@ import { GLTF } from 'three-stdlib'
 
 import { useCustomization } from '../_store/customizationStore'
 
-interface TextureProps {
+export interface TextureProps {
   map?: THREE.Texture
   normalMap: THREE.Texture
   roughnessMap: THREE.Texture
